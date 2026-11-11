@@ -9,3 +9,11 @@ class Add(StatesGroup):
 class Get(StatesGroup):
     year = State()
     month = State()
+
+
+class Settings(StatesGroup):
+    currency = State()
+
+
+class Period(StatesGroup):
+    range = State()
