@@ -1,0 +1,21 @@
+# Local agent instructions and workflow (never publish)
+AGENTS.md
+AGENTS.override.md
+.codex/
+.agents/
+.agent-setup/
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+.venv-audit/
+.cache/
+# Local development history
+/PROJECT_MEMORY.md
+/roadmap.md
